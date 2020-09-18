@@ -1,0 +1,2 @@
+D:\LearningUnreal\ShooterMovement\Intermediate\Build\Win64\UE4Editor\Development\ShooterMovement\Definitions.ShooterMovement.h
+D:\LearningUnreal\ShooterMovement\Source\ShooterMovement\ShooterMovement.h

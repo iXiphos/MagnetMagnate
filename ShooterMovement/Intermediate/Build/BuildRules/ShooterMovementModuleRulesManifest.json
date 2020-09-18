@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\LearningUnreal\\ShooterMovement\\Source\\ShooterMovement\\ShooterMovement.Build.cs",
+		"D:\\LearningUnreal\\ShooterMovement\\Source\\ShooterMovement.Target.cs",
+		"D:\\LearningUnreal\\ShooterMovement\\Source\\ShooterMovementEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.3"
+}

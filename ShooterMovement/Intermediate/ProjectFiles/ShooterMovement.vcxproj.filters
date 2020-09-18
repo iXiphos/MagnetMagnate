@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ShooterMovement.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{3CB63FAE-B5EF-4AAA-9465-2A6585B5650B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ShooterMovement.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ShooterMovementEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\unreal.gitignore" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{7BD7A5F9-A52E-40B9-842C-FAECEF5D4840}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ShooterMovement">
+      <UniqueIdentifier>{2DAB54B8-5685-4624-850C-FF7F4D1A1166}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ShooterMovement\ShooterMovement.Build.cs">
+      <Filter>Source\ShooterMovement</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ShooterMovement\ShooterMovement.cpp">
+      <Filter>Source\ShooterMovement</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ShooterMovement\ShooterMovement.h">
+      <Filter>Source\ShooterMovement</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShooterMovement\Private">
+      <UniqueIdentifier>{8F268A6B-A71D-4841-A222-DE9BE1A844B0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShooterMovement\Private\FPCharacter.cpp">
+      <Filter>Source\ShooterMovement\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterMovement\Private\MagnetPlates.cpp">
+      <Filter>Source\ShooterMovement\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShooterMovement\Private\MyCharacter.cpp">
+      <Filter>Source\ShooterMovement\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\ShooterMovement\Public">
+      <UniqueIdentifier>{8B4794F1-F554-4E3F-BFC1-520014E738DA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShooterMovement\Public\FPCharacter.h">
+      <Filter>Source\ShooterMovement\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterMovement\Public\MagnetPlates.h">
+      <Filter>Source\ShooterMovement\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShooterMovement\Public\MyCharacter.h">
+      <Filter>Source\ShooterMovement\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ShooterMovement",
+			"Path": "D:\\LearningUnreal\\ShooterMovement\\Source\\ShooterMovement.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ShooterMovementEditor",
+			"Path": "D:\\LearningUnreal\\ShooterMovement\\Source\\ShooterMovementEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

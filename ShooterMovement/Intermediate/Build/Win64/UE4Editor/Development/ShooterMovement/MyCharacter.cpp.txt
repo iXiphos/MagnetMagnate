@@ -1,0 +1,11 @@
+D:\LearningUnreal\ShooterMovement\Intermediate\Build\Win64\UE4Editor\Development\ShooterMovement\Definitions.ShooterMovement.h
+D:\LearningUnreal\ShooterMovement\Source\ShooterMovement\Public\MyCharacter.h
+D:\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\LearningUnreal\ShooterMovement\Intermediate\Build\Win64\UE4Editor\Inc\ShooterMovement\MyCharacter.generated.h
+D:\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+D:\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+D:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h

@@ -1,0 +1,5 @@
+D:\LearningUnreal\ShooterMovement\Intermediate\Build\Win64\UE4Editor\Development\ShooterMovement\Definitions.ShooterMovement.h
+D:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\LearningUnreal\ShooterMovement\Source\ShooterMovement/Public/MagnetPlates.h
+D:\LearningUnreal\ShooterMovement\Intermediate\Build\Win64\UE4Editor\Inc\ShooterMovement\MagnetPlates.generated.h
