@@ -33,14 +33,14 @@ void EmptyLinkFunctionForGeneratedCodeFPCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cam_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_cam;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_jumping_MetaData[];
 #endif
 		static void NewProp_jumping_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_jumping;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cam_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_cam;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -57,14 +57,6 @@ void EmptyLinkFunctionForGeneratedCodeFPCharacter() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPCharacter_Statics::NewProp_cam_MetaData[] = {
-		{ "Category", "Camera" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/FPCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFPCharacter_Statics::NewProp_cam = { "cam", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFPCharacter, cam), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFPCharacter_Statics::NewProp_cam_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFPCharacter_Statics::NewProp_cam_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPCharacter_Statics::NewProp_jumping_MetaData[] = {
 		{ "ModuleRelativePath", "Public/FPCharacter.h" },
 	};
@@ -74,9 +66,17 @@ void EmptyLinkFunctionForGeneratedCodeFPCharacter() {}
 		((AFPCharacter*)Obj)->jumping = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFPCharacter_Statics::NewProp_jumping = { "jumping", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AFPCharacter), &Z_Construct_UClass_AFPCharacter_Statics::NewProp_jumping_SetBit, METADATA_PARAMS(Z_Construct_UClass_AFPCharacter_Statics::NewProp_jumping_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFPCharacter_Statics::NewProp_jumping_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPCharacter_Statics::NewProp_cam_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/FPCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFPCharacter_Statics::NewProp_cam = { "cam", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AFPCharacter, cam), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFPCharacter_Statics::NewProp_cam_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AFPCharacter_Statics::NewProp_cam_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFPCharacter_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPCharacter_Statics::NewProp_cam,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPCharacter_Statics::NewProp_jumping,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPCharacter_Statics::NewProp_cam,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AFPCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AFPCharacter>::IsAbstract,
@@ -105,7 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeFPCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPCharacter, 3679700734);
+	IMPLEMENT_CLASS(AFPCharacter, 354352331);
 	template<> SHOOTERMOVEMENT_API UClass* StaticClass<AFPCharacter>()
 	{
 		return AFPCharacter::StaticClass();

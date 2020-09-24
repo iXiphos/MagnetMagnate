@@ -2,6 +2,7 @@
 
 
 #include "FPCharacter.h"
+#include "Components/PrimitiveComponent.h"
 
 // Sets default values
 AFPCharacter::AFPCharacter()
@@ -58,6 +59,7 @@ void AFPCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AFPCharacter::HoriMove(float value)
 {
+	value *= 2;
 	if (value)
 	{
 		AddMovementInput(GetActorRightVector(), value);
@@ -66,6 +68,7 @@ void AFPCharacter::HoriMove(float value)
 
 void AFPCharacter::VertMove(float value)
 {
+	value *= 2;
 	if (value)
 	{
 		AddMovementInput(GetActorForwardVector(), value);
@@ -103,5 +106,6 @@ void AFPCharacter::CheckJump()
 		jumping = true;
 	}
 }
+
 
 

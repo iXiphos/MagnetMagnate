@@ -28,6 +28,10 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
+		UCameraComponent* cam;
+
 private:
 	void HoriMove(float value);
 	void VertMove(float value);
@@ -39,9 +43,5 @@ private:
 
 	UPROPERTY()
 		bool jumping;
-
-	UPROPERTY(EditAnywhere, Category = "Camera")
-		UCameraComponent* cam;
-
 
 };

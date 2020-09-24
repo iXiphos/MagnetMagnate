@@ -59,8 +59,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPCharacter); \
 
 
 #define ShooterMovement_Source_ShooterMovement_Public_FPCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__jumping() { return STRUCT_OFFSET(AFPCharacter, jumping); } \
-	FORCEINLINE static uint32 __PPO__cam() { return STRUCT_OFFSET(AFPCharacter, cam); }
+	FORCEINLINE static uint32 __PPO__jumping() { return STRUCT_OFFSET(AFPCharacter, jumping); }
 
 
 #define ShooterMovement_Source_ShooterMovement_Public_FPCharacter_h_11_PROLOG
